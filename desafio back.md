@@ -25,6 +25,7 @@ O que é recomendável
 
 Diferenciais:
 
+- Logs
 - Segurança
 - Migrations
 - Utilização de Cache
