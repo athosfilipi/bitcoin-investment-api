@@ -50,7 +50,7 @@ Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
 
 ## Objetivo
 
-Desenvolver um sistema de investimento em bitcoins
+Desenvolver uma **API** de investimento em bitcoins
 
 ## Especificação do Desafio
 
