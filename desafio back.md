@@ -1,10 +1,10 @@
 # Teste de Dev Backend
 
-Esse teste foi desenhado para os perfís pleno e senior de desenvolvedor web back end, porém juniors são bem vindos a testar seus conhecimenos e mandar pra gente suas soluções.
+Esse teste foi desenhado para os perfís pleno e senior de desenvolvedor web back end, porém juniors são bem vindos a testar seus conhecimenos e mandar para a gente suas soluções.
 
 ## Avaliação
 
-Considerando seu nível de conhecimento, faça até onde for possível no tempo que você se propor a gastar no desafio. Não se preocupe que não der para acabar tudo, isso não terá muita relevância e não queremos que você desista de tentar.
+Considerando seu nível de conhecimento, faça até onde for possível no tempo que você se propuser a gastar no desafio. Não se preocupe se não der para acabar tudo, isso não terá muita relevância e não queremos que você desista de tentar.
 
 O que é obrigatório:
 
@@ -83,7 +83,7 @@ Deve ser enviado um email informando o valor investido em R$ e o valor comprado 
 
 #### 6) Posição dos investimentos
 
-O Cliente deve poder ver a posição de seus investimentos. com as informações:
+O Cliente deve poder ver a posição de seus investimentos com as informações:
 
 data de compra, valor investido, valor do btc no momento da compra, percentual de variação do preço do bitcoin e valor bruto atual do investimento
 
