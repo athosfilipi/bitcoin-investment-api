@@ -107,7 +107,7 @@ Faça um endpoint que retorne o total de bitcoins comprados e vendidos no dia co
 
 Deve haver um endpoint com o histórico de valor de compra/venda do bitcoin que retorne o valor com frequência de 10 minutos (8:00, 8:10, 8:20, ...) das últimas 24 horas.
 
-dados com mais de 90 dias devem ser expurgados automaticamente.
+Dados com mais de 90 dias devem ser expurgados automaticamente.
 
 ## Como entregar
 
