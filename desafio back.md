@@ -97,7 +97,7 @@ Deve ser enviado um email informando o valor vendido em BTC e o valor resgatado 
 
 #### 8) Extrato
 
-Deverá ser possível listar os depósitos, compras e resgates, com suas respectivas datas e cotações para o cliente ter transparência do que foi feito nos últimos 90 dias ou por intervalo customizado
+Deverá ser possível listar os depósitos, compras e resgates, com suas respectivas datas e cotações para o cliente ter transparência do que foi feito nos últimos 90 dias ou por intervalo customizado.
 
 #### 9) Volume
 
