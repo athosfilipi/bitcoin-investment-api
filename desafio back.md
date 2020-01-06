@@ -91,6 +91,8 @@ data de compra, valor investido, valor do btc no momento da compra, percentual d
 
 O Cliente poderá vender seus bitcoins. O valor será debitado de seus investimentos, na ordem da compra e na cotação do momento do BTC até atingir o valor de saque desejado. O dinheiro deve retornar para a conta dele na plataforma.
 
+No caso de venda parcial o investimento deve ser liquidado completamente, e o valor residual deve ser reinvestido usando a cotação original do BTC. As duas transações (saque parcial e investimento) devem estar presentes no extrato.
+
 Deve ser enviado um email informando o valor vendido em BTC e o valor resgatado em R$
 
 #### 8) Extrato
