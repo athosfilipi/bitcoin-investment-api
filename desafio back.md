@@ -17,10 +17,10 @@ O que é recomendável
 
 - Clean Code
 - SOLID
-- Códigos de Resposta/Verbos HTTP corretos
-- Padrões de Arquitetura (DDD, Hexagonal, Onion e Clean)
-- ORM/ODM
 - Separation of Concerns
+- Padrões de Arquitetura (DDD, Hexagonal, Onion, Clean, CQRS, etc.)
+- Códigos de Resposta/Verbos HTTP corretos
+- ORM/ODM
 - Testes
 - Padronização e Sintaxe do código
 - Inglês (código preferencialmente em inglês)
