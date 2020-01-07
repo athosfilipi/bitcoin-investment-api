@@ -16,7 +16,9 @@ O que é obrigatório:
 O que é recomendável
 
 - Clean Code
+- SOLID
 - Códigos de Resposta/Verbos HTTP corretos
+- Padrões de Arquitetura (DDD, Hexagonal, Onion e Clean)
 - ORM/ODM
 - Separation of Concerns
 - Testes
@@ -57,7 +59,7 @@ Desenvolver uma **API** de investimento em bitcoins
 
 #### 1) Database
 
-Qualquer uma, relacional ou não relacional
+MariaDB, Postgres ou MongoDB
 
 #### 2) Contas
 
