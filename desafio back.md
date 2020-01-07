@@ -42,14 +42,19 @@ Diferenciais:
 Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
 
 - PHP (Lumen) ★★★★★
-- NodeJS (Typescript é um plus) ★★★★
-- .NET Core ★★★
-- Spring Boot ★★
+- NodeJS (NestJS, Express, Typescript é um plus) ★★★★
+- .NET Core (API) ★★★
+- Java (Spring Boot) ★★
 
 ### Integrações
 
 - Api do mercadobitcoin: https://www.mercadobitcoin.net/api/BTC/ticker/
-- Apis de email com tier gratuíto, como: SendGrid e Mandrill 
+- Apis de email com tier gratuíto, como: SendGrid e Mandrill
+
+### Exemplos
+
+- Api de exemplo: https://desafio-api.devzz.ninja
+- Postman: https://cdn.eduzzcdn.com/files/desafio-postman.json
 
 ## Objetivo
 
