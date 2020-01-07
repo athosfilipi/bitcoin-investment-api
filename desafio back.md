@@ -4,7 +4,7 @@ Esse teste foi desenhado para os perfís pleno e senior de desenvolvedor web bac
 
 ## Avaliação
 
-Considerando seu nível de conhecimento, faça até onde for possível no tempo que você se propuser a gastar no desafio. Não se preocupe se não der para acabar tudo, isso não terá muita relevância e não queremos que você desista de tentar.
+Considerando seu nível de conhecimento, faça até onde for possível no tempo que você se propuser a gastar no desafio. Não se preocupe se não der para acabar tudo, nós sabemos que o desafio é bastante complexo e queremos saber até onde você consegue se virar. Então envie o que você conseguir.
 
 O que é obrigatório:
 
