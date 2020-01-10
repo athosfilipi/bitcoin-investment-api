@@ -58,7 +58,7 @@ Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
 
 ## Dúvidas
 
-Dúvidas são bem vindas, é só enviar um email para carlos.ferrari@eduzz.com
+Dúvidas são bem vindas, é só enviar um email para selecao.dev@eduzz.com
 
 ## Objetivo
 
