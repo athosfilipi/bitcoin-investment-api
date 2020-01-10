@@ -126,4 +126,4 @@ Dados com mais de 90 dias devem ser expurgados automaticamente.
 
 ## Como entregar
 
-Versione o projeto em um repositório privado do github ou bitbucket, adicione acesso ao usuário @caferrari e envie o endereço pra gente.
+Versione o projeto em um repositório privado do github ou bitbucket, adicione acesso ao usuário @caferrari e envie o endereço do repositorio ou o codigo zipado para selecao.dev@eduzz.com
