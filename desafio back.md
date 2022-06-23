@@ -41,10 +41,11 @@ Diferenciais:
 
 Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
 
-- PHP (Lumen) ★★★★★
-- NodeJS (NestJS, Express, Typescript é um plus) ★★★★
-- .NET Core (API) ★★★
-- Java (Spring Boot) ★★★
+
+- NodeJS (NestJS, Express, Typescript é um plus) ★★★★★
+- PHP (Lumen) ★★★
+- .NET Core (API) ★★
+- Java (Spring Boot) ★★
 
 ### Integrações
 
