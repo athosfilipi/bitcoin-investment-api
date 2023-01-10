@@ -53,7 +53,6 @@ Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
 
 ## Exemplos
 
-- Api de exemplo: https://desafio-api.devzz.ninja
 - Postman: https://cdn.eduzzcdn.com/files/desafio-postman.json
 
 ## Dúvidas
