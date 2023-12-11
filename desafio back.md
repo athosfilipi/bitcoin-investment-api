@@ -39,12 +39,7 @@ Diferenciais:
 
 ### Linguagem de Programação
 
-Preferêncialmente o sistema deverá ser feito em uma das seguintes linguagens:
-
-
-- NodeJS (NestJS, Express, Typescript é um plus) ★★★★★
-- .NET Core (API) ★★
-- Java (Spring Boot) ★★
+Preferêncialmente o sistema deverá ser feito em NodeJS (Express/Fastfy com Typescript):
 
 ### Integrações
 
