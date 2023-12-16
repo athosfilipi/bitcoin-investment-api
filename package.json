@@ -3,17 +3,38 @@
   "version": "1.0.0",
   "description": "Esse teste foi desenhado para os perfís pleno e senior de desenvolvedor web back end, porém juniors são bem vindos a testar seus conhecimenos e mandar para a gente suas soluções.",
   "main": "index.js",
-  "repository": "https://gist.github.com/athosfilipi/97a2d0189369ca14c2dac49fdf5d5a9d",
   "author": "Athos Filipi",
   "license": "MIT",
-  "scripts": {
-    "dev": "nodemon ./src/index.js"
+  "engines": {
+    "node": "16.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/athosfilipi/97a2d0189369ca14c2dac49fdf5d5a9d"    
+  },
+  "scripts": {    
+    "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config --inspect --respawn --transpile-only --ignore-watch node_modules src/server.ts",
+    "compile": "rimraf ./dist && npx tsc",
+    "start": "node ./dist/server.js"    
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
     "rimraf": "^5.0.5"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.21",
+    "@types/helmet": "^4.0.0",
+    "@types/morgan": "^1.9.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "ts-node-dev": "^1.1.8",
+    "tsconfig-paths": "^3.12.0"
   }
 }
