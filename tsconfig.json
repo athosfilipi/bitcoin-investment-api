@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2019",
+    "target": "es2016",
     "moduleResolution": "node",
     "module": "commonjs",
     "lib": ["es2019"],
@@ -20,16 +20,19 @@
     "baseUrl": "./",
     "paths": {
       "@src/*": ["./src/*"],
+      "@express/*": ["./src/providers/express/*"],
       "@test/*": ["./test/*"]
     },
     "rootDirs": [
       "./src",
-      "./test"
+      "./test",
+      "./src/providers/express/*"
     ],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "include": [
+    "./src/providers/express/*.ts",
     "./src/**/*.ts",
     "./test/**/*.ts"
   ],
