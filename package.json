@@ -1,0 +1,19 @@
+{
+  "name": "Teste-Dev-Backend",
+  "version": "1.0.0",
+  "description": "Esse teste foi desenhado para os perfís pleno e senior de desenvolvedor web back end, porém juniors são bem vindos a testar seus conhecimenos e mandar para a gente suas soluções.",
+  "main": "index.js",
+  "repository": "https://gist.github.com/athosfilipi/97a2d0189369ca14c2dac49fdf5d5a9d",
+  "author": "Athos Filipi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
