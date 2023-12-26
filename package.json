@@ -10,7 +10,7 @@
    },
    "repository": {
       "type": "git",
-      "url": "https://github.com/athosfilipi/bitcoin-investment-api.git`"
+      "url": "https://github.com/athosfilipi/bitcoin-investment-api.git"
    },
    "scripts": {
       "dev": "ts-node-dev -r tsconfig-paths/register -r dotenv/config --inspect --respawn --transpile-only --ignore-watch node_modules src/index.ts",
