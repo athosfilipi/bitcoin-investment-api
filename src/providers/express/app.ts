@@ -9,6 +9,9 @@ import compression from 'compression';
 import routes from '@src/routes';
 import { error404 } from './middlewares/errors/error404';
 import { error500 } from './middlewares/errors/error500';
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from '../swagger/swagger';
+
 
 
 const app = express();
@@ -21,7 +24,12 @@ app.use(cors({
   }));
 app.use(helmet());
 app.use(express.json());
+
 app.disable('x-powered-by')
+
+// Configuração do Swagger UI
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 
 app.use('/api/',routes);
 

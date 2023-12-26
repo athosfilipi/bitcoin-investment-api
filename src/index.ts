@@ -1,18 +1,20 @@
-import { gracefulShutdown, start } from "@express/server";
+// index.ts
+import { gracefulShutdown } from "@express/server";
+
+import { startApp } from "./config/appConfig";
 
 (async () => {
   try {
-    const server = await start();
-    // initConsumers()
-    process.on("SIGINT", gracefulShutdown("SIGINT", server));
-    process.on("SIGTERM", gracefulShutdown("SIGTERM", server));
-    process.on("exit", (code) => gracefulShutdown(code, server));
-} catch (error) {
-    console.error("\n", new Error(JSON.stringify(error)));
-    gracefulShutdown("SIGINT")    
-} finally {
-    process.on("SIGINT", gracefulShutdown("SIGINT"));
-    process.on("SIGTERM", gracefulShutdown("SIGTERM"));
-    process.on("exit", (code) => gracefulShutdown(code));
-}
+    const server = await startApp();
+
+    if (server) {
+      process.on("SIGINT", gracefulShutdown);
+      process.on("SIGTERM", gracefulShutdown);
+      process.on("exit", gracefulShutdown);
+    }
+  } catch (error) {
+    // console.error("\n", new Error(JSON.stringify(error)));
+    // Chama gracefulShutdown diretamente, sem passar um servidor
+    gracefulShutdown()(1); // Código de saída 1 indica um erro durante o shutdown
+  }
 })();
